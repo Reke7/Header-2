@@ -26,7 +26,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
 }
 
 .logo
@@ -63,13 +63,12 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
 }
 
-/* .nav-item
+.nav-item
 {
     margin-left: 20px;
-} */
+}
 
 .nav-link
 {
@@ -120,7 +119,6 @@ button.sign-up:hover
     flex-direction: column;
     text-align: center;
     margin-top: 3.5rem;
-    gap: 50px;
 }
 
 .header-section
@@ -206,8 +204,8 @@ button.create-account:hover
 
     nav
     {
-        /* display: flex;
-        justify-content: space-between; */
+        display: flex;
+        justify-content: space-between;
     }
 
     .buttons
@@ -229,10 +227,10 @@ button.create-account:hover
         width: 400px;
     }
 
-    /* .items
+    .items
     {
         margin-top: 140px;
-    } */
+    }
 
     .item
     {
@@ -286,13 +284,5 @@ button.create-account:hover
     .items
     {
         flex-direction: column;
-    }
-}
-
-@media (min-width: 300px)
-{
-    .items
-    {
-        margin-top: 60px;
     }
 }
