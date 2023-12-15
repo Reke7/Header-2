@@ -17,7 +17,7 @@ body
 
 .container
 {
-    width: 972px;
+    max-width: 972px;
     margin: 0 auto;
 }
 
@@ -63,12 +63,13 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
-.nav-item
+/* .nav-item
 {
     margin-left: 20px;
-}
+} */
 
 .nav-link
 {
@@ -123,7 +124,7 @@ button.sign-up:hover
 
 .header-section
 {
-    width: 714px;
+    max-width: 714px;
     height: 387px;
     margin: 0 auto;
     /* display: flex;
@@ -143,7 +144,7 @@ h2.heading
 
 h5.lead
 {
-    width: 625px;
+    max-width: 625px;
     margin: 0 auto 20px auto;
     font-weight: 500;
     font-size: 1.375rem;
@@ -224,7 +225,7 @@ button.create-account:hover
     }
     h5.lead
     {
-        width: 400px;
+        width: 100%;
     }
 
     .items
