@@ -268,6 +268,7 @@ button.create-account:hover
     {
         display: block;
         cursor: pointer;
+        margin-right: 20px;
     }
 
     .hamburger.active .bar:nth-child(2) {
