@@ -228,10 +228,10 @@ button.create-account:hover
         width: 100%;
     }
 
-    .items
+    /* .items
     {
         margin-top: 140px;
-    }
+    } */
 
     .item
     {
@@ -286,5 +286,13 @@ button.create-account:hover
     .items
     {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .items
+    {
+        margin-top: 120px;
     }
 }
