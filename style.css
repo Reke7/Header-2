@@ -237,16 +237,24 @@ img
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        border: 4px dashed red;
+    }
+
+    .items
+    {
+        width: 100%;
     }
 
     .item
     {
-        margin-top: -8em;
+        width: 100%;
     }
 
     .item
     {
         margin: 0 auto;
+    }
+
+    .vr {
+        display: none;
     }
 }
