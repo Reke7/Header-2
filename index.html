@@ -12,56 +12,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
         <header>
-            <nav class="navbar">
-                <img src="images/Black.png" class="logo">
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="#" class="nav-link">Tour</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Prices</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">F.A.Q.</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
-                </ul>
+            <div class="container row">
+                <h3 class="logo">Startup 3</h3>
+                <nav class="nav">
+                    <ul class="nav-menu nav-menu--primary">
+                        <li class="nav-item"><a href="#" class="nav-link">Tour</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Prices</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">F.A.Q.</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+                    </ul>
 
-                <div class="buttons">
-                    <a href="#" class="log-in">Login</a>
-                    <button class="sign-up">Sign Up</button>
-                </div>
-
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#" class="nav-link log-in">Login</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link sign-up">Sign Up</a></li>
+                    </ul>
+                    <!-- <div class="buttons">
+                        <a href="#" class="log-in">Login</a>
+                        <button class="sign-up">Sign Up</button>
+                    </div> -->
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
         </header>
 
         <section class="hero">
-            <div class="header-section">
-                <h2 class="heading">Build Your Own Site like a Lego Constructor</h2>
-                <h5 class="lead">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</h5>
-                <button class="create-account">Create an Account</button>
+            <div class="container">
+                <div class="header-section col">
+                    <h2 class="heading">Build Your Own Site like a Lego Constructor</h2>
+                    <h5 class="lead">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</h5>
+                    <button class="create-account">Create an Account</button>
+                </div>
             </div>
 
             <div class="items">
-                <div class="item">
-                    <img src="images/Mask.png" alt="Mask">
-                    <p>A high-quality solution for a beautiful startup website.</p>
-                </div>
-                <span class="vr" style="border-left: 2px solid #EBEAED; height: 109px;"></span>
-                <div class="item">
-                    <img src="images/Mask-1.png" alt="Mask 2">
-                    <p>Startups can save money on design and code and use those savings to develop the business</p>
-                </div>
-                <span class="vr" style="border-left: 2px solid #EBEAED; height: 109px;"></span>
-                <div class="item">
-                    <img src="images/Mask-2.png" alt="Mask 3">
-                    <p>Startup Framework includes great form options for your startup projects.</p>
+                <div class="container row">
+                    <div class="item">
+                        <img src="images/Mask.png" alt="Mask">
+                        <p>A high-quality solution for a beautiful startup website.</p>
+                    </div>
+                    <span class="vr" style="border-left: 2px solid #EBEAED; height: 109px;"></span>
+                    <div class="item">
+                        <img src="images/Mask-1.png" alt="Mask 2">
+                        <p>Startups can save money on design and code and use those savings to develop the business</p>
+                    </div>
+                    <span class="vr" style="border-left: 2px solid #EBEAED; height: 109px;"></span>
+                    <div class="item">
+                        <img src="images/Mask-2.png" alt="Mask 3">
+                        <p>Startup Framework includes great form options for your startup projects.</p>
+                    </div>
                 </div>
             </div>
         </section>
-    </div>
 
     <script>
         const hamburger = document.querySelector(".hamburger");
